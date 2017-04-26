@@ -1,0 +1,42 @@
+// qpf
+
+// PSR-1    ///////////////////////////////////////////////////////////////////
+ - <?php or <?= tags
+ - UTF-8 sans BOM only
+ - declarative or cause side-effects but not both
+ - Namesspaces and classes must be autoloaded
+ - class names in UpperCasesName
+ - class constant in uppercase and underscore separator
+ - method in camelCaseName
+
+// PSR-2    ///////////////////////////////////////////////////////////////////
+ - PSR-1 compliant
+ - 4 spaces for tabs
+ - no hard limit on line length but 120 to 80 recommended
+ - 1 blank line after the namespace declaration
+ - 1 blank line after the use declaration
+ - opening braces on next line for class and function declaration
+ - visibility (private,protected,public) mandatory
+ - placement : abstract|final private|protected|public static
+ - 1 space after control structure (if,elseif,else,switch)
+ - no space after function or method
+ - opening brace on the same line
+ - no space after parenthesis crontrol structure and no space before closing
+ 
+// PSR-3   ///////////////////////////////////////////////////////////////////
+  - logger interface
+  
+// one word reserved classname   -->     get_declared_classes ()
+ 
+ - Closure
+ - Directory
+ - Exception
+ - Generator
+ - Iterator
+ - Phar
+ - Reflection
+ - Serializable
+ - Traversable
+ - Throwable
+ 
+ 
