@@ -45,7 +45,7 @@ class Object implements LoggerAwareInterface
         
         // set color
         if($opt['color']){
-            $msg = (new String($msg))->shellColor($opt['color']);
+            $msg = (new Text($msg))->shellColor($opt['color']);
         }
         
         // on elimine les clés de la fonction

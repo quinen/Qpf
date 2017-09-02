@@ -2,7 +2,7 @@
 
 namespace Qpf\Core;
 
-class String extends Object
+class Text extends Object
 {
     private $_string    = "";
     private $_length    = 0;

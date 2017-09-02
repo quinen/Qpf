@@ -5,7 +5,7 @@ namespace Qpf\Logger;
 use \Psr\Log\AbstractLogger;
 
 use \Qpf\Core\File;
-use \Qpf\Core\String;
+use \Qpf\Core\Text;
 
 
 class FileLogger extends AbstractLogger
@@ -84,7 +84,7 @@ class FileLogger extends AbstractLogger
         
         for($i=$start;$i<$end;$i++){
             $line = $dbbt[$i];
-            $str .= "".(new String("[".($i)."]"))->shellColor('yellow');
+            $str .= "".(new Text("[".($i)."]"))->shellColor('yellow');
             
             // file:line
             if(isset($line['line'])){
